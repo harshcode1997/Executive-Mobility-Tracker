@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "appId": "2cd0b45d-e526-48fd-b4a0-35ac3ca68bc3",
+  "appDisplayName": "Executive Mobility Tracker",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "3f8af95f-fbb7-e904-a292-06899a6c0947",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "assignments": {
+          "entitySetName": "hr_assignments",
+          "logicalName": "hr_assignment",
+          "isHidden": false
+        },
+        "users": {
+          "entitySetName": "hr_users",
+          "logicalName": "hr_user",
+          "isHidden": false
+        },
+        "vehicles": {
+          "entitySetName": "hr_vehicles",
+          "logicalName": "hr_vehicle",
+          "isHidden": false
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
